@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+}
+
+h1,h2,h3 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--purple-color);
+}
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/*estilos home*/
+
+header{
+    display: flex;
+    background-color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo img{
+    max-width: 250px;
+    width: 100%;
+}
+.b-azul{
+    background: linear-gradient(#00B2B1, #016E6E);
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+.b-azul:hover{
+    color:var(--blue-color);
+    background: linear-gradient(#016E6E,#00B2B1);
+
+}
+.b-morado{
+
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border-color:var(--purple-color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--purple-color)
+}
+
+.b-morado:hover{
+    color:var(--white-color);
+    background: var(--purple-color);
+
+}
+nav{
+    display: flex;
+    background-color: var(--purple-color);
+
+}
+
+.item{
+    padding: 1rem;
+    color:var(--white-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--purple-color);
+}
+
+.item:hover{
+    color: rgba(255,255,255,0.4);
+    border-bottom: 2px solid var(--white-color);
+}
+
+#agenda{
+ display: flex;
+ margin-top: 0.1rem;
+}
+
+.cita{
+    flex-basis: 70%;
+    background-image: url(../IMG/fondo.jpg);
+    padding: 2rem;
+}
+.cita h1{
+    color: var(--dark-color);
+    font-size: 28px;
+    text-transform: uppercase ;
+}
+
+.cita h3{
+    color: var(--dark-color);
+    font-size: 18px;
+    text-transform: uppercase ;
+    font-weight: 600;
+}
+
+.promocion{
+    flex-basis: 30%;
+    background-color: var(--purple-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+.promocion h1{
+    color: var(--white-color);
+    font-size: 28px;
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+.promocion img{
+    border-radius: 50%;
+    border: 7px solid var(--white-color);
+   inset: 0 0 0 1px var(--white-color);
+
+}
