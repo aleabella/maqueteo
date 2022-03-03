@@ -132,3 +132,124 @@ nav{
    inset: 0 0 0 1px var(--white-color);
 
 }
+
+.tsection{
+    text-align:center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px var(--dark-color);
+
+}
+
+#servicios{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.servicio{
+    margin:10px;
+    text-align: center;
+    padding: 1rem;
+
+}
+.servicio img{
+max-width: 200px;
+width: 100%;
+}
+
+footer{
+    background-image: url('..//IMG/fondo.jpg');
+  
+}
+
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    padding:2rem;
+    background-color: rgba(117,41,149,0.5);
+    
+}
+
+.foot{
+    text-align: center;
+
+}
+.foot h3{
+    color:var(--white-color);
+}
+
+.foot p{
+    color:var(--white-color);
+}
+
+.icono{
+    color: var(--white-color);
+}
+
+#banner img{
+    width: 100% ;
+ 
+
+}
+
+#equipo{
+    display: flex;
+    text-align:center;
+    font-weight: bolder;
+    justify-content: space-around;
+  
+}
+.nuestroequipo{
+  
+    text-align: center ;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px var(--dark-color);
+}
+.medicos{
+   
+    margin:10px;
+    padding: 1rem;
+}
+
+.medicos img{
+    width: 200px;
+border-radius: 50%;
+    border: 7px solid var(--white-color);
+   inset: 0 0 0 1px var(--white-color);
+}
+
+.medicos h4{
+    color: #191919;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px var(--dark-color);
+
+    
+}
+
+.medicos h3{
+    color: var(--purple-color);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px var(--dark-color);
+}
+
+#services{
+    display: flex;
+
+    padding: 2rem;
+
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.img-service{
+    margin-right: 1rem;
+}
+
+.text-service h3 {
+    color: var(--dark-color);
+    font-size: 24px;
+}
+
